@@ -1,0 +1,24 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: yin7372175240000
+    url: jdbc:mysql://47.94.81.96:3306/government-web?useSSL=false&serverTime=UTC&characterEncoding=UTF-8
+  main:
+    allow-bean-definition-overriding: true
+
+
+  redis:
+    password:
+    port: 6379
+    host: 47.94.81.96
+
+
+mybatis-plus:
+
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  type-aliases-package: com.yaolong.government.admin.domain
