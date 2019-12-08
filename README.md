@@ -123,20 +123,20 @@ npm run dev
     
    - 查看文章
     ![](img/mainlist.png)
-      % asset_img mainlist.png %}
+      {% asset_img mainlist.png %}
    - 修改文章
     ![](img/edit.png)
-     % asset_img edit.png %}
+     {% asset_img edit.png %}
    - 批量删除
       ![](img/deletlist.png)
-      % asset_img deletlist.png %}
+      {% asset_img deletlist.png %}
       ![](img/suceese.png)
-      % asset_img suceese.png %}
+      {% asset_img suceese.png %}
    - 发布文章（用Markdown）
     ![](img/release.png)
-    % asset_img release.png %}
+    {% asset_img release.png %}
     ![](img/a.png)
-    % asset_img a.png %}
+    {% asset_img a.png %}
     
    - 删除文章 
    
@@ -145,7 +145,7 @@ npm run dev
     
    - 查看用户
     ![](img/userlist.png)
-    % asset_img userlist.png %}
+    {% asset_img userlist.png %}
    
    - 添加用户
  
